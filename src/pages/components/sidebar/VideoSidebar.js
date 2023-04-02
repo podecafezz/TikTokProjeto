@@ -16,7 +16,7 @@ function VideoSidebar({ likes, messages, shares }) {
     <div className="videoSidebar">
       <div className="videoSidebar__options" onClick={handdleLike}>
         {liked ? (
-          <FavoriteIcon fontSize="" />
+          <FavoriteIcon fontSize="medium" />
         ) : (
           <FavoriteBorderIcon fontSize="medium" />
         )}
